@@ -1,0 +1,64 @@
+.Join-button {
+      /* element to change : change value*/
+      background-color: rgb(223, 11, 11);
+      /* to change the color of button*/
+      color: white;
+      /*  to change the color of the words written*/
+      border: none;
+      height: 30px;
+      width: 68px;
+      border-radius: 2px;
+      /* makes the border less pointy on the edge*/
+      cursor: pointer;
+      margin-right: 7px;
+      transition: opacity 0.15s;
+      vertical-align: top;
+    }
+
+    .Join-button:hover {
+      /*  when u hover on a button*/
+      opacity: 0.8;
+    }
+
+    .Join-button:active {
+      opacity: 0.6;
+    }
+
+    .Play-button {
+      background-color: white;
+      color: blue;
+      border-color: blue;
+      border-style: solid;
+      border-width: 1px;
+      margin: 0 7px 0 7px;
+      transition: background-color 1s, color 1s;
+      cursor: pointer;
+      padding: 5px 5px 7px 5px;
+      vertical-align: top;
+    }
+
+    .Play-button:hover {
+      background-color: blue;
+      color: white;
+    }
+
+    .Play-button:active {
+      opacity: 0.7;
+    }
+
+    .Chat-button {
+      background-color: #156fd6;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.16s;
+      vertical-align: top;
+      padding: 7px 15px 7px 15px;
+    }
+
+    .Chat-button:hover {
+      box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+    }

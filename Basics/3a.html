@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .helo{
+        position: fixed;
+        background-color: black;
+        color: white;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 100px;        
+      }
+
+      .lol{
+        position: fixed;
+        background-color: rgba(0,0,0,0.5);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .box{
+        background-color: white;
+        width: 350px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 12px;
+        border-radius: 5px;
+      }
+
+      .top{
+        font-weight: bold;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body style="height: 3000px;">
+    <div class="helo">left side</div>
+    <div class="lol">
+      <div class="box">
+        <div class="top">Modal Time</div>
+        <div class="middle">This is a modal</div>
+        <div class="bottom"><button>Close</button></div>
+      </div>
+    </div>
+  </body>
+</html>
