@@ -1,12 +1,8 @@
 
     .thumbnail {
       width: 100%;
-      transition: 2s cubic-bezier(0.39, 0.575, 0.565, 1)
     }
 
-    .thumbnail:hover{
-      transform: scale(1.05,1.05);
-    }
     .thumbnail0{
       margin-bottom: 13px;
       position: relative;
